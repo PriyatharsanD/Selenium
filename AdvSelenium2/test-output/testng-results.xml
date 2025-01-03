@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-31T15:43:28 IST" name="Suite" finished-at="2024-12-31T15:46:03 IST" duration-ms="154923">
+    <groups>
+    </groups>
+    <test started-at="2024-12-31T15:43:28 IST" name="Cross Test-1" finished-at="2024-12-31T15:45:42 IST" duration-ms="134716">
+      <class name="com.advSelenium.parallelExecution.AmazonGIfCardTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.advSelenium.parallelExecution.AmazonGIfCardTest@cecf639]" started-at="2024-12-31T15:43:28 IST" name="launchBrowser" finished-at="2024-12-31T15:44:59 IST" duration-ms="91380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="giftCardTest()[pri:0, instance:com.advSelenium.parallelExecution.AmazonGIfCardTest@cecf639]" started-at="2024-12-31T15:44:59 IST" name="giftCardTest" finished-at="2024-12-31T15:45:00 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCardTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.advSelenium.parallelExecution.AmazonGIfCardTest@cecf639]" started-at="2024-12-31T15:45:00 IST" name="close" finished-at="2024-12-31T15:45:42 IST" duration-ms="42826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.advSelenium.parallelExecution.AmazonGIfCardTest -->
+    </test> <!-- Cross Test-1 -->
+    <test started-at="2024-12-31T15:43:28 IST" name="Cross Test-2" finished-at="2024-12-31T15:46:03 IST" duration-ms="154923">
+      <class name="com.advSelenium.parallelExecution.AmazonSearchTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.advSelenium.parallelExecution.AmazonSearchTest@66982506]" started-at="2024-12-31T15:43:28 IST" name="launchBrowser" finished-at="2024-12-31T15:43:39 IST" duration-ms="11511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchTest()[pri:0, instance:com.advSelenium.parallelExecution.AmazonSearchTest@66982506]" started-at="2024-12-31T15:43:39 IST" name="searchTest" finished-at="2024-12-31T15:43:40 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.advSelenium.parallelExecution.AmazonSearchTest@66982506]" started-at="2024-12-31T15:43:40 IST" name="close" finished-at="2024-12-31T15:46:03 IST" duration-ms="143078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.advSelenium.parallelExecution.AmazonSearchTest -->
+    </test> <!-- Cross Test-2 -->
+  </suite> <!-- Suite -->
+</testng-results>
