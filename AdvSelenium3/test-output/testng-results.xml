@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-02T16:57:52 IST" name="Suite" finished-at="2025-01-02T16:57:52 IST" duration-ms="57">
+    <groups>
+      <group name="smokeSuite">
+        <method signature="HomePageTest.loginTest()[pri:0, instance:com.advSelenium.profiling.HomePageTest@7f0eb4b4]" name="loginTest" class="com.advSelenium.profiling.HomePageTest"/>
+        <method signature="PaymentTest.upi()[pri:0, instance:com.advSelenium.profiling.PaymentTest@4efbca5a]" name="upi" class="com.advSelenium.profiling.PaymentTest"/>
+      </group> <!-- smokeSuite -->
+    </groups>
+    <test started-at="2025-01-02T16:57:52 IST" name="Test" finished-at="2025-01-02T16:57:52 IST" duration-ms="57">
+      <class name="com.advSelenium.profiling.PaymentTest">
+        <test-method signature="upi()[pri:0, instance:com.advSelenium.profiling.PaymentTest@4efbca5a]" started-at="2025-01-02T16:57:52 IST" name="upi" finished-at="2025-01-02T16:57:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upi -->
+      </class> <!-- com.advSelenium.profiling.PaymentTest -->
+      <class name="com.advSelenium.profiling.HomePageTest">
+        <test-method signature="loginTest()[pri:0, instance:com.advSelenium.profiling.HomePageTest@7f0eb4b4]" started-at="2025-01-02T16:57:52 IST" name="loginTest" finished-at="2025-01-02T16:57:52 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.advSelenium.profiling.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
