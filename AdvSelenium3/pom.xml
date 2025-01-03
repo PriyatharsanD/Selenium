@@ -22,7 +22,7 @@
   </build>
 	  </profile>
 	  <profile>
-		  <id>verify</id>
+		  <id>verification</id>
 		  <build>
 	  <plugins>
 		   <plugin>
